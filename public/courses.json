@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch.",
+    "image": "https://i.postimg.cc/example-course1.png",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "Python for Data Science and Machine Learning",
+    "instructor": "Jane Smith",
+    "duration": "25 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Master Python, Pandas, NumPy, and Scikit-Learn for data analysis and machine learning.",
+    "image": "https://i.postimg.cc/example-course2.png",
+    "category": "Data Science"
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Design Masterclass using Figma",
+    "instructor": "Sarah Johnson",
+    "duration": "15 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Design beautiful user interfaces and create engaging user experiences from wireframe to prototype.",
+    "image": "https://i.postimg.cc/example-course3.png",
+    "category": "Design"
+  },
+  {
+    "id": 4,
+    "title": "The Complete Digital Marketing Course",
+    "instructor": "Michael Brown",
+    "duration": "22 hours",
+    "rating": 4.6,
+    "level": "All Levels",
+    "description": "Master SEO, Social Media, Google Ads, email marketing, and Analytics strategy.",
+    "image": "https://i.postimg.cc/example-course4.png",
+    "category": "Marketing"
+  },
+  {
+    "id": 5,
+    "title": "React Native Mobile App Development",
+    "instructor": "David Wilson",
+    "duration": "18 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Build production-ready, cross-platform mobile applications for iOS and Android.",
+    "image": "https://i.postimg.cc/example-course5.png",
+    "category": "Development"
+  },
+  {
+    "id": 6,
+    "title": "AWS Certified Solutions Architect",
+    "instructor": "Emily Davis",
+    "duration": "30 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Prepare for the AWS Solutions Architect certification with practical, hands-on cloud labs.",
+    "image": "https://i.postimg.cc/example-course6.png",
+    "category": "IT & Software"
+  },
+  {
+    "id": 7,
+    "title": "Cyber Security Fundamentals",
+    "instructor": "Robert Taylor",
+    "duration": "12 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Learn the basics of cybersecurity, ethical hacking, and how to protect networks from threats.",
+    "image": "https://i.postimg.cc/example-course7.png",
+    "category": "IT & Software"
+  },
+  {
+    "id": 8,
+    "title": "Mastering English Communication",
+    "instructor": "Laura Martinez",
+    "duration": "10 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Improve your spoken and written English for professional and everyday environments.",
+    "image": "https://i.postimg.cc/example-course8.png",
+    "category": "Language"
+  }
+]
