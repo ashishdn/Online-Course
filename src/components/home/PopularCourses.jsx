@@ -1,30 +1,13 @@
 import Link from "next/link";
+import CourseData from "../../../public/courses.json"
+import Image from "next/image";
 
 export default function PopularCourses() {
+
+  const topThreeCourses = [...CourseData].sort((a, b) => b.rating -a.rating).slice(0, 3)
+  console.log(CourseData)
   // ডেমো ডেটা (পরে আপনি API থেকে ডেটা এনে এটি ডাইনামিক করবেন)
-  const courses = [
-    {
-      id: 1,
-      title: "Complete Web Development Bootcamp",
-      instructor: "John Doe",
-      rating: 4.9,
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80",
-    },
-    {
-      id: 2,
-      title: "UI/UX Design Masterclass using Figma",
-      instructor: "Sarah Johnson",
-      rating: 4.8,
-      image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=600&q=80",
-    },
-    {
-      id: 3,
-      title: "Python for Data Science & ML",
-      instructor: "Jane Smith",
-      rating: 4.7,
-      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=600&q=80",
-    },
-  ];
+  
 
   return (
     <section className="py-16 md:py-24 bg-white">
@@ -47,15 +30,17 @@ export default function PopularCourses() {
 
         {/* Course Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {courses.map((course) => (
+          {topThreeCourses.map((course) => (
             <div 
               key={course.id} 
               className="bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-lg transition-shadow duration-300 flex flex-col overflow-hidden"
             >
               {/* Image */}
-              <img
+              <Image
                 src={course.image}
                 alt={course.title}
+                width={400}
+                height={200}
                 className="w-full h-52 object-cover"
               />
 
